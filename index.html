@@ -1,11 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Giovanni Frozza da Cruz - Portfólio</title>
+	<style>
+		body {
+			font-family: 'Poppins', Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			line-height: 1.8;
+			color: #333;
+			background-color: #f9f9f9;
+		}
+
+		header {
+			background: linear-gradient(90deg, #4e54c8, #8f94fb);
+			color: #fff;
+			padding: 2rem 0;
+			text-align: center;
+		}
+
+		header h1 {
+			margin: 0;
+			font-size: 2.5rem;
+		}
+
+		nav {
+			display: flex;
+			justify-content: center;
+			background: #444;
+			padding: 0.8rem;
+			position: sticky;
+			top: 0;
+			z-index: 1000;
+		}
+
+		nav a {
+			color: white;
+			text-decoration: none;
+			margin: 0 20px;
+			font-weight: bold;
+		}
+
+		nav a:hover {
+			text-decoration: underline;
+		}
+
+		section {
+			padding: 3rem 2rem;
+			max-width: 1200px;
+			margin: auto;
+		}
+
+		section h2 {
+			text-align: center;
+			margin-bottom: 2rem;
+			font-size: 2rem;
+			color: #4e54c8;
+		}
+
+		.project {
+			border: 1px solid #ddd;
+			padding: 2rem;
+			margin-bottom: 2rem;
+			background: white;
+			border-radius: 10px;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+			transition: transform 0.3s ease;
+		}
+
+		.project:hover {
+			transform: translateY(-10px);
+		}
+
+		.project h3 {
+			color: #4e54c8;
+		}
+
+		footer {
+			text-align: center;
+			padding: 1.5rem 0;
+			background: #333;
+			color: #fff;
+			margin-top: 2rem;
+		}
+
+		footer a {
+			color: #8f94fb;
+			text-decoration: none;
+		}
+
+		footer a:hover {
+			text-decoration: underline;
+		}
+	</style>
 </head>
+
 <body>
-	<h1>Eae</h1>
+
+	<header>
+		<h1>Giovanni Frozza da Cruz</h1>
+		<p>Engenheiro de Software | Desenvolvedor fullstack</p>
+	</header>
+
+	<nav>
+		<a href="#about">Sobre Mim</a>
+		<a href="#projects">Projetos</a>
+		<a href="#contact">Contato</a>
+	</nav>
+
+	<section id="about">
+		<h2>Sobre Mim</h2>
+		<p>Desenvolvedor de software com experiência em tecnologias como Java, Spring Boot, React Native, e C#.
+			Apaixonado por criar soluções escaláveis e robustas que resolvem problemas reais.</p>
+	</section>
+
+	<section id="projects">
+		<h2>Projetos</h2>
+
+		<div class="project">
+			<h3>Projeto: Soluções para Pagamentos Eletrônicos</h3>
+			<p>Desenvolvimento de novas funcionalidades para terminais de pagamento focados em empreendedores. Atuei
+				como desenvolvedor fullstack utilizando ASP.NET MVC e Angular.</p>
+			<p><strong>Tecnologias:</strong> ASP.NET MVC, Angular</p>
+		</div>
+
+		<div class="project">
+			<h3>Projeto: Evolução do eSocial</h3>
+			<p>Implementação da segunda fase do sistema eSocial, focado em integrações de dados fiscais. Contribuí no
+				desenvolvimento backend utilizando C#.</p>
+			<p><strong>Tecnologias:</strong> C#</p>
+		</div>
+
+		<div class="project">
+			<h3>Projeto: Automação de Testes</h3>
+			<p>Criação e execução de testes automatizados para uma aplicação backend, garantindo maior confiabilidade e
+				qualidade do sistema.</p>
+			<p><strong>Tecnologias:</strong> Java, Spring Boot, JUnit, Mockito</p>
+		</div>
+
+		<div class="project">
+			<h3>Projeto: Sistema Bancário</h3>
+			<p>Desenvolvimento backend para sistemas críticos do setor bancário, utilizando Java com Spring Boot.</p>
+			<p><strong>Tecnologias:</strong> Java, Spring Boot</p>
+		</div>
+	</section>
+
+	<section id="contact">
+		<h2>Contato</h2>
+		<p><strong>E-mail:</strong> giovannifrozza470@gmail.com</p>
+		<p><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">linkedin.com/in/giovannifrozza</a>
+		</p>
+		<p><strong>GitHub:</strong> <a href="https://github.com/GiovanniFrozza" target="_blank">github.com/giovannifrozza</a></p>
+	</section>
+
+	<footer>
+		<p>&copy; 2024 Giovanni Frozza da Cruz | <a href="#">Voltar ao topo</a></p>
+	</footer>
+
 </body>
+
 </html>
